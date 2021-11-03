@@ -21,7 +21,7 @@ describe("GET /recipes?name=", () => {
     Recipe.sync({ force: true }).then(() => Recipe.create(recipe))
   );
 
-  it("should get 200", () => agent.get("/recipes?name=milanesa").expect(200));
+  it("should get 200", () => agent.get("/recipes?name=sw").expect(200));
 
   it("shoud get 400 if theres no query parameter", () => 
      agent.get("/recipes").then((res) => {
