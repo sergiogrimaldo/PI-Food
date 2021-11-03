@@ -15,14 +15,14 @@ const DetailsContainer = ({bool, click, name, summary, score, healthScore, diets
               <h1>{name}</h1>
               <Container2>
               {
-               diets.length === 0 ? <h4>no diets associated</h4> : diets.map((i,index) => (<h4  key={index}> • {i}</h4>)) //prettier-ignore
+               diets.length === 0 ? <h4>No diets associated</h4> : diets.map((i,index) => (<h4  key={index}> • {i}</h4>)) //prettier-ignore
               }
               </Container2>
             </div>
             <Container className={"dishTypes"}>
               <h3>Dish types: </h3>
               {
-                dishTypes.length === 0 ? <h4>no dish types associated</h4> : dishTypes.map((i,index) => (<div key={index}><h4>{i} •</h4></div>)) //prettier-ignore
+                dishTypes.length === 0 ? <h4>No dish types associated</h4> : dishTypes.map((i,index) => (<div key={index}><h4>{i} •</h4></div>)) //prettier-ignore
               }
             </Container>
             <Container className={"score"}>
@@ -37,7 +37,7 @@ const DetailsContainer = ({bool, click, name, summary, score, healthScore, diets
             </Container>
             {!bool && steps[0][1][0][0] !== "" && ( //first block, array of steps, first step, number/index => should be '1'
               <Container className="hideshow">
-                <Button onClick={click}>show instructions</Button>
+                <Button onClick={click}>Show instructions</Button>
               </Container>
             )}
             {bool && steps[0][1][0][0] !== "" && (

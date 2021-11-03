@@ -11,7 +11,7 @@ const ThanksForm = ({setDone}) => {
         <h1>Thanks for Submitting</h1>
         <CenterButtons>
           <Button onClick={() => setDone(false)}>Submit another recipe</Button>
-          <LinkButton to="/home" inner="go home" />
+          <LinkButton to="/home" inner="Go home" />
         </CenterButtons>
       </Head>
     </>

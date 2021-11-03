@@ -19,7 +19,7 @@ const Menu = () => {
     <div className={`menu-container`}>
       {(recipes) && (
         <Trigger onClick={onClick}>
-          <span>Filter</span>
+          <span>FILTER 🔄</span>
         </Trigger>
       )}
       <Nav ref={reference} className={`menu ${bool && "active"}`}>

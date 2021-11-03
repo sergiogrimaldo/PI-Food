@@ -21,7 +21,7 @@ export const Home = () => {
   return (
     <Container>
       <Head>
-        <h1>{title} Recipes</h1>
+        <h1> 🍱 {title} - Recipes </h1>
       </Head>
       <Div>
         <LinkButton to="/makeRecipe" inner={"make your own"} />

@@ -6,7 +6,7 @@ import Button from "../../Buttons/ActionButton";
 const ClearFilters = () => {
   return (
     <Div>
-      <Button action={clearFilters} inner={"CLEAR"} />
+      <Button action={clearFilters} inner={"Clear"} />
     </Div>
   );
 };

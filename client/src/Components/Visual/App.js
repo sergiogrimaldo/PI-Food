@@ -1,5 +1,5 @@
 import { Route, Switch } from "react-router";
-import "./App.css";
+//import "./App.css";
 import Form from "./Form/Form";
 import GetStarted from "./Landing/GetStarted";
 import { Home } from "../Visual/Home/Home";
