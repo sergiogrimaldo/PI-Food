@@ -1,5 +1,5 @@
 import React from "react";
-import { fireEvent, render, screen , within} from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router";
 import FormContainer from "../Components/Visual/Form/FormContainer";
 import '@testing-library/jest-dom/extend-expect'
@@ -45,7 +45,7 @@ describe("<Form/>", () => {
             addStep={action}
             removeStep={action}
             danger={false}
-            submission={submission}
+            
           />
         </MemoryRouter>
       );
@@ -96,7 +96,7 @@ describe("<Form/>", () => {
         render(
           <MemoryRouter>
             <FormContainer
-              submission={submission}
+              
               dietsLoaded={diets}
               part={["", [[...stepModel]]]}
               handleSubmit={handleClick}
@@ -118,7 +118,7 @@ describe("<Form/>", () => {
         render(
             <MemoryRouter>
               <FormContainer
-                submission={submission}
+               
                 dietsLoaded={diets}
                 part={["", [[...stepModel]]]}
                 handleSubmit={action}

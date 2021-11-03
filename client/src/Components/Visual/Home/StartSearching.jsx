@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import chefs from "../../../assets/rata.gif.crdownload";
+import chefs from "../../../assets/fun-sashimi.png";
 
 const StartSearching = () => {
   return (
