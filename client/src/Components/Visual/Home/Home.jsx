@@ -24,7 +24,7 @@ export const Home = () => {
         <h1> 🍱 {title} - Recipes </h1>
       </Head>
       <Div>
-        <LinkButton to="/makeRecipe" inner={"make your own"} />
+        <LinkButton to="/makeRecipe" inner={"Make your own"} />
       </Div>
       <SearchBar />
       {recipesUnfiltered.length === 0 && reference === "" && !loading && (
