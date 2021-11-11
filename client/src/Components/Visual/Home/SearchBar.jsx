@@ -35,7 +35,7 @@ const SearchBar = () => {
       <form onSubmit={handleSubmit}>
         <Search as='input'
           type="text"
-          placeholder="Search recipes"
+          placeholder="Search recipes" //Barra color buscar
           name="input"
           onChange={handleInput}
           value={input}

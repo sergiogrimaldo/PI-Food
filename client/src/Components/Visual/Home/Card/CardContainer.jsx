@@ -16,7 +16,7 @@ const CardContainer = () => {
   const recipesUnfiltered = useSelector((state) => state.recipesUnfiltered);
   const reference = useSelector((state) => state.reference);
   const page = useSelector((state) => state.pageReference);
-
+//conteo del paginado en card
   let index = page * 9;
   let end = index + 9;
   let results =

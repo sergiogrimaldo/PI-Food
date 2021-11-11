@@ -14,7 +14,7 @@ const GetStarted = () => {
         <h1>Henry Food</h1>
         <Link to="/home">
         <Linked>
-          <h4>Get Started</h4>
+          <h4>Get Started !</h4>
         </Linked>
         </Link>
       </Div>
